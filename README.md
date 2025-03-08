@@ -22,55 +22,65 @@
 
         EXAMPLE Payload: 
 
-        [
+[
+  {
+    "label": "PLC 1",
+    "topic": "topic1",
+    "state": "ok",
+    "animation": "none"
+  },
+  {
+    "label": "PLC 2 💩",
+    "topic": "topic2",
+    "state": "alarm",
+    "animation": "blink"
+  },
+  {
+    "label": "PLC 3",
+    "topic": "topic3",
+    "state": "ok",
+    "animation": "none"
+  },
+  {
+    "label": "PLC 4",
+    "topic": "topic4",
+    "state": "ok",
+    "animation": "none"
+  },
+  {
+    "label": "PLC 5",
+    "topic": "topic5",
+    "state": "ok",
+    "animation": "none"
+  },
     {
-        "label": "Button 1",
-        "topic": "topic1",
-        "state": "alarm"
+      "label": "PLC 6",
+      "topic": "topic6",
+      "state": "ok",
+      "animation": "none"
     },
     {
-        "label": "Button 2",
-        "topic": "topic2",
-        "state": "ok"
+      "label": "PLC 7 💩",
+      "topic": "topic7",
+      "state": "alarm",
+      "animation": "blink"
     },
     {
-        "label": "Button 3",
-        "topic": "topic3",
-        "state": "alarm"
+      "label": "PLC 8",
+      "topic": "topic8",
+      "state": "ok",
+      "animation": "none"
     },
     {
-        "label": "Button 4",
-        "topic": "topic4",
-        "state": "ok"
+      "label": "PLC 9",
+      "topic": "topic9",
+      "state": "ok",
+      "animation": "none"
     },
     {
-        "label": "Button 5",
-        "topic": "topic5",
-        "state": "alarm"
-    },
-    {
-        "label": "Button 6",
-        "topic": "topic6",
-        "state": "ok"
-    },
-    {
-        "label": "Button 7",
-        "topic": "topic7",
-        "state": "ok"
-    },
-    {
-        "label": "Button 8",
-        "topic": "topic8",
-        "state": "alarm"
-    },
-    {
-        "label": "Button 9",
-        "topic": "topic9",
-        "state": "ok"
-    },
-    {
-        "label": "Button 10",
-        "topic": "topic10",
-        "state": "ok"
+      "label": "PLC 10",
+      "topic": "topic10",
+      "state": "ok",
+      "animation": "none"
     }
 ]
